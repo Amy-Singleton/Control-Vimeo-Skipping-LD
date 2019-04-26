@@ -1,45 +1,49 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+Control Vimeo Video Skipping for LearnDash
+=
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Contributors: amy@minds-eye-designs.com
+Requires at least: 4.9
+Tested up to: 4.9.4
+Requires PHP: 7.0
+Stable tag: trunk
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Control Video Skipping and Resume Video for LearnDash Vimeo Videos
 
----
+## Description 
+Admins can Control Video Skipping for End Users. A met-box is added to LearnDash Courses and Lessons with a check box to allow admins to disable Vimeo Video Skipping. This plugin also adds a Resume Video feature for LearnDash Vimeo Videos. A cookie is set in the users browser to let him/her resume the video where he/she left off when the course or lesson is revisited. The user will be prompted to resume the video at his/her descretion.
 
-## Edit a file
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## Installation
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+### Manual installation
 
----
+The manual installation method involves downloading our plugin and uploading it to your WordPress installation via the Plugins Admin Page
 
-## Create a file
+1. Login to WordPress
+1. Click Plugins->Add New
+1. Click the Upload Plugin button
+1. Click Browse->Locate the file on your local computer
+1. Click Install Now
+1. Locate the plugin you just uploaded
+1. Click->Activate
 
-Next, you’ll add a new file to this repository.
+### FTP/SFTP installation
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+The ftp/sftp installation method involves downloading our plugin and uploading it to your WordPress installation with Filezilla, Putty or BitVise
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+1. Login to your FTP/SFTP Software in your local development environment
+1. Locate the file you want to upload
+1. Drag the plugin into the wp-content/plugins/ directory
+1. Reset file permissions if necessary
+1. Login to WordPress
+1. Go to Plugins
+1. Locate the plugin you just uploaded
+Click->Activate
 
----
+## Changelog 
 
-## Clone a repository
+### 1.0.1
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Dev - Updated readme.txt
