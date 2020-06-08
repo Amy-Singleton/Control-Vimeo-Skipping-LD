@@ -12,7 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Control Video Skipping and Resume Video for LearnDash Vimeo Videos
 
 ## Description 
-WordPress Plugin that adds features to LearnDash. Admins can Control Video Skipping for End Users. A met-box is added to LearnDash Courses and Lessons with a check box to allow admins to disable Vimeo Video Skipping. This plugin also adds a Resume Video feature for LearnDash Vimeo Videos. A cookie is set in the users browser to let him/her resume the video where he/she left off when the course or lesson is revisited. The user will be prompted to resume the video at his/her descretion.
+WordPress Plugin that adds features to LearnDash. Admins can Control Video Skipping for End Users. A meta box is added to LearnDash Courses and Lessons with a check box setting to allow admins to disable Vimeo Video Skipping. 
+
+This plugin also adds a Resume Video feature for LearnDash Vimeo Videos. A cookie is set in the users browser to let him/her resume the video where he/she left off when the course or lesson is revisited. The user will be prompted to resume the video at his/her descretion.
 
 
 ## Installation
